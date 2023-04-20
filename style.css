@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #e2ec52, #61ff8e);;
+}
+
+
+.website-title{
+    text-align: center;
+    
+    padding: 20px 20px;
+    margin-top: 30px;
+    color:  rgb(24, 130, 35);
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+
+
+
+
+.board-game{
+   width: 70%;
+   height:50%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-left: 15%;
+    
+}
+
+.Tile {
+    width: 24%;
+    height:48%;
+    background-color: #fff;
+    border: none;
+    color: #61ff8e;
+    font-size: 75px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin:10px;
+}
+
+
+
+.result{
+    margin-top: 230px;
+    border-radius: 8px;
+    font-size: 42px;
+    font-weight: 400;
+    color:  rgb(24, 130, 35);
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
